@@ -1,1 +1,2 @@
 # cse3150_week3_hw
+In solution.cpp I used pointers specfically in the function updateGPA to modify each students GPA directly. I used references in printStudent in order to safely access the values of the GPAs without copying them. Const helps to make sure that names and GPAs are not modified when they shouldn't be. I threw exceptions when the studetn list is full or empty and this is done by catching in main() preventing crashes. Control flow is taken care of using switch for the menu and if/else statements made sure that the inputs are valid and within the array bounds.
